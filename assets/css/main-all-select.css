@@ -1,0 +1,180 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+  margin-left: 4em;
+}
+.navbar-default .navbar-brand {
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  font-size: 1.2em;
+  /*color: #2b2b2b;*/
+  /*color:#00334d;*/
+  color:#3dade5;
+}
+.navbar-default {
+  /*font-family: Calibri, Helvetica, 'Lato', Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+  font-weight: 400;
+  line-height: 1.25;
+  text
+
+#profile .portrait {
+  background-image: url('../img/portrait.jpg');
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+#profile .portrait-title h2 {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+#profile .portrait-title h3 {
+  font-size: 1.13em;
+  font-weight: 300;
+  color: #AAAAAA;
+  margin: 0px 0 10px 0;
+}
+
+#profile ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#profile .social-icon li {
+  margin-right: 10px;
+}
+
+#profile .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#profile .social-icon li:hover {
+  transform: scale(1.2)
+}
+
+.big-icon {
+  font-size: 2rem;
+}
+
+.med-icon {
+  font-size: 1.5rem;
+}
+
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  /*font-size: 2rem;*/
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+.row:after,
+.row:before {
+  content: " ";
+  display: table;
+}
+
+.pub-icon {
+  color: #03396c;
+  font-size: 0.81em;
+  padding-top: 6px;
+}
+
+.pub-banner {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pub .pub-title {
+  color: #03396c;
+  font-style: bold;
+  margin-bottom: 5px;
+}
+
+.pub .pub-authors {
+  font-style: italic;
+  line-height: 30px; /* Match share bar line height. */
+}
+
+.pub .pub-row-heading {
+  font-weight: bold;
+}
+
+.pub-list-item {
+  margin-bottom: 40px;
+}
+
+.pub-list-item .pub-abstract {
+  font-size: 1rem;
+}
+
+.pub-list-item .pub-authors {
+  line-height: normal;
+  font-style: normal;
+  /*font-size: 1rem;*/
+  font-size: 1.5rem;
+  color: #3170A5;
+}
+
+.pub-list-item .pub-publication {
+  color: #090;
+  font-size: 1rem;
+}
+
+.pub-list-item .pub-links {
+  padding-top: 10px;
+}
+
+#container-publications {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+/*************************************************
+ * Talks
+ **************************************************/
+
+.talk-event {
+  color: #090;
+  font-size: 1rem;
+}
