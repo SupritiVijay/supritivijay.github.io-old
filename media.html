@@ -18,6 +18,7 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="assets/css/main.css" />
+
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -46,6 +47,112 @@
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
+		<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column-grid {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.column-grid img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body_card {
+  font-family: "Lora", sans-serif;
+  display: grid;
+  place-items: center;
+  
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-block: 2rem;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: clamp(20rem, calc(20rem + 2vw), 22rem);
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+background: linear-gradient(to right,#F6EAC2, #CCE2CB, #ECD5E3, #FFBF91);
+
+}
+
+.card__body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.tag {
+  align-self: flex-start;
+  padding: .25em .75em;
+  border-radius: 1em;
+  font-size: .75rem;
+}
+
+.tag + .tag {
+  margin-left: .5em;
+}
+
+.tag-blue {
+  background: #56CCF2;
+background: linear-gradient(to bottom, #2F80ED, #2F80ED);
+  color: #fafafa;
+}
+
+.tag-brown {
+  background: #D1913C;
+background: linear-gradient(to bottom, #097969, #097969);
+  color: #fafafa;
+}
+
+.tag-red {
+  background: #cb2d3e;
+background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+  color: #fafafa;
+}
+
+.card__body h4 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+</style>
+
 </head>
 
 <body class="is-preload">
@@ -63,11 +170,11 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="index.html"><b>Back to Main Site</b></a></li>
-					
-					<li class="nav-item"><a class="nav-link" href="media.html"><b>Blogs</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="media.html"><b>Dramatics</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="media.html"><b>Societies and Clubs</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="media.html"><b>Failure Resume</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#dramatics"><b>Dramatics</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#art"><b>Art</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#blogs"><b>Blogs</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#soc"><b>Societies and Clubs</b></a></li>
+					<li class="nav-item"><a class="nav-link" href="#failure"><b>Failure Resume</b></a></li>
 				</ul>
 			</div>
 		</nav>
@@ -85,24 +192,147 @@
 						<header class="major">
 							<h2>My Hobbies and Interests</h2>
 						</header>
-						<p>Under Construction</p><br>
-						<span class="image"><div class="row">
-  <div class="column">
-    <img src="images/personal/Aaina1.jpeg" alt="Snow" style="width = 500 px;">
+						<p> When I am not working on cutting-edge research or gallivanting around discussing mind-boggling questions, I usually pursue the following activities. Since you've made it to this page, you can find more information about me below. :) </p><br>
+
+					</div>
+				</div>
+			</section>
+						
+
+								<section id="dramatics" class="main">
+
+						<header class="major">
+	
+							<h2>Dramatics</h2>
+						</header>
+						<p>Calling my love for dramatics a hobby would be an understatement. It is more of an essence of my being. The urge to make all things associated filled with drama, suspense and eye-gauging thrillers is something I normally associate myself with. 
+
+						Be it submitting a dull assignment or studying for an exam, my flair for drama makes things always interesting or annoying for people around me. <br><br>
+
+					I dread the thought of things being dull, thus compelling me to add my potpourri of drama and storytelling into it. It all began with me being associated with every single drama production in my school. The production always had an end, but my drama never did. (xD)</p><br>
+
+					During my college year, I paricipated in various drama competitions and won 
+					<ul>
+						<li> &#127942;  <b>First prize in the Street Play Category at Revels, the cultural fest at Manipal Institute of Technology, Udupi (Mar 2021) </b></li>
+
+						<li> &#127942;  <b>First prize in the Street Play Category at Vibrance, the cultural fest at Vellore Institute of Technology, Chennai (Feb 2021) </b></li>
+						
+
+					</ul>
+
+						<span class="image">
+
+						<div class="row"> 
+  <div class="column-grid">
+  <img src="images/personal/Aaina1.jpeg" style="width:100%">
+  <img src="images/personal/Aaina5.jpeg" style="height: 52%; width:100%">
   </div>
-  <div class="column">
-    <img src="images/personal/Aaina2.jpeg" alt="Forest" >
+
+
+  <div class="column-grid">
+  <img src="images/personal/Aaina2.jpeg" style="width:99%">
+  </div>  
+
+  <div class="column-grid">
+  <img src="images/personal/Aaina7.jpeg" style="width:100%">
+  <img src="images/personal/Aaina8.jpeg" style="width:100%">
   </div>
-  <div class="column">
-    <img src="images/personal/Aaina3.jpeg" alt="Mountains">
-  </div>
+ 
 </div>
 </span>
 
+			</section>
 
-					</div>
-					</div>
-				</div>
+
+				<section id="art" class="main">
+
+						<header class="major">
+	
+							<h2>Sketching and Art</h2>
+						</header>
+						<p></p>
+						
+
+					
+
+						<span class="image">
+
+						<div class="row"> 
+  <div class="column-grid">
+  <img src="images/personal/Art2.jpeg" style="width:100%">
+  <img src="images/personal/Art4.jpeg" style="width:100%">
+  </div>
+
+
+  <div class="column-grid">
+  <img src="images/personal/Art1.jpeg" style="height: 98%; width:100%">
+  </div>  
+
+  <div class="column-grid">
+  <img src="images/personal/Art3.jpeg" style="width:100%">
+  <img src="images/personal/Art5.jpeg" style="height: 49%; width:100%">
+  </div>
+ 
+</div>
+</span>
+
+			</section>
+
+			<section id="blogs" class="main">
+
+						<header class="major">
+	
+							<h2>Blogs</h2>
+						</header>
+						<p></p>
+						<body_card>
+
+<div class="container">
+  <div class="card">
+    <div class="card__header">
+      
+      <img src="https://www.cqfluency.com/wp-content/uploads/2021/11/vs.png" class="card__image" height="250" width="600" style="max-width: 100%;display: block; object-fit: cover;">
+    </div>
+    <div class="card__body">
+      <span class="tag tag-brown">Culture</span>
+      <h4>Hofstede’s ‘Uncertainty Avoidance' - a staple?</h4>
+      <p>Releasing Soon</p>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card__header">
+      <img src="https://images.unsplash.com/photo-1655720031554-a929595ffad7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="card__image" height="250"width="600" style="max-width: 100%;display: block; object-fit: cover;">
+    </div>
+    <div class="card__body">
+      <span class="tag tag-blue">Technology</span>
+      <h4>Explainable AI - is it really explainable?</h4>
+      <p>Releasing Soon</p>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card__header">
+      <img src="https://images.unsplash.com/photo-1548383675-379abfac2c41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" class="card__image" height="250" width="600" style="max-width: 100%;display: block; object-fit: cover;">
+    </div>
+    <div class="card__body">
+      <span class="tag tag-red">Literature</span>
+      <h4>Evolution of the Patriarchial Society</h4>
+      <p>Releasing Soon</p>
+    </div> 
+  </div>
+
+
+</div>
+
+</body_card>
+
+					
+
+						
+
 			</section>
 
 
