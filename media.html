@@ -151,6 +151,65 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   font-size: 1.5rem;
   text-transform: capitalize;
 }
+
+    .image_soc {
+  position: relative;
+  /*width: 400px;
+*/    
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay>* {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover>* {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 0.75em;
+  margin-top: 0.25em;
+}
+
+
+
+
 </style>
 
 </head>
@@ -174,7 +233,7 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 					<li class="nav-item"><a class="nav-link" href="#art"><b>Art</b></a></li>
 					<li class="nav-item"><a class="nav-link" href="#blogs"><b>Blogs</b></a></li>
 					<li class="nav-item"><a class="nav-link" href="#soc"><b>Societies and Clubs</b></a></li>
-					<li class="nav-item"><a class="nav-link" href="#failure"><b>Failure Resume</b></a></li>
+					<!-- <li class="nav-item"><a class="nav-link" href="#failure"><b>Failure Resume</b></a></li> -->
 				</ul>
 			</div>
 		</nav>
@@ -334,6 +393,84 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 						
 
 			</section>
+
+
+			<section id="soc" class="main">
+
+						<header class="major">
+	
+							<h2>Societies and Clubs</h2>
+						</header>
+						<p></p>
+						
+
+					
+
+						<span class="image">
+
+						<div class="row"> 
+							 <div class="column-grid">
+  	<a href="http://www.researchsocietymit.com/"><div class="image_soc">
+    <img class="image__img" src="images/personal/soc2.png" style="height: 60%; width:100%">
+    <div class="image__overlay image__overlay--blur">
+      <div class="image__title">Research Society MIT</div></a>
+      <p class="image__description">
+         Official Research Organization of Manipal. 
+      </p>
+    </div>
+  </div>
+ 
+  </div>
+
+
+  <div class="column-grid">
+  	<a href="https://acmw-manipal.github.io/"><div class="image_soc">
+    <img class="image__img" src="images/personal/soc3.jpeg" style=" width:100%">
+    <div class="image__overlay image__overlay--blur">
+      <div class="image__title">ACM-W Manipal</div></a>
+      <p class="image__description">
+        Working towards empowering women in STEM
+      </p>
+    </div>
+  </div>
+  </div>  
+
+  <div class="column-grid">
+		<a href="https://www.instagram.com/iemechatronics/?hl=en"><div class="image_soc">
+    <img src="images/personal/soc0.jpeg" style="height: 100%; width:100%">
+    <div class="image__overlay image__overlay--blur">
+      <div class="image__title">IE Mechatronics</div></a>
+      <p class="image__description">
+        Multidisciplinary Club for Robotics, AI and Mechanical
+      </p>
+    </div>
+  </div>
+  </div>
+ 
+</div>
+</span>
+
+			</section>
+
+			<!-- <section id="dramatics" class="main">
+
+						<header class="major">
+	
+							<h2>Failure Resume</h2>
+						</header>
+						<p>Under Construction</p><br>
+
+					During my college year, I paricipated in various drama competitions and won 
+					<ul>
+						<li> &#127942;  <b>First prize in the Street Play Category at Revels, the cultural fest at Manipal Institute of Technology, Udupi (Mar 2021) </b></li>
+
+						<li> &#127942;  <b>First prize in the Street Play Category at Vibrance, the cultural fest at Vellore Institute of Technology, Chennai (Feb 2021) </b></li>
+						
+
+					</ul>
+
+				</section> -->
+
 
 
 
